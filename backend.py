@@ -30,7 +30,7 @@ while True:
     lines = []
     for i in range(start, 0, -1):
         lines.append("%s little bugs in the code. "
-			     "Take one dow ." % i)
+		     "Take one dow ." % i)
 	
 
     with open(OUTPUT, "w") as f:
