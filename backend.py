@@ -37,4 +37,4 @@ while True:
         f.write("\n".join(lines))
 
     last_count = start
-	    time.sleep(0.5)
+    time.sleep(0.5)
