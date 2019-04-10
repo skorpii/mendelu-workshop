@@ -30,10 +30,11 @@ while True:
     lines = []
     for i in range(start, 0, -1):
         lines.append("%s little bugs in the code. "
-                     "Take one down, patch it around." % i)
+			     "Take one dow ." % i)
+	
 
     with open(OUTPUT, "w") as f:
         f.write("\n".join(lines))
 
     last_count = start
-    time.sleep(0.5)
+	    time.sleep(0.5)
